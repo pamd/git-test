@@ -1,14 +1,14 @@
 Some notes on debugging front-end JavaScript in our ngbp framework:
--------------------------------------------------------------------
+===================================================================
 (written by Matt on 08/09/2016 Slack AngularJS Channel)
 
 Learn about developer mode
-==========================
+--------------------------
 
 This often goes without saying, but it is important to get familiar with the developer mode of your browser of choice. Many people swear by Chrome, and it is indeed very good, but Safari and Firefox also have good tools worth exploring.
 
 Getting a look at the data
-==========================
+--------------------------
 
 1. Adding **$log.info();** will add an entry to the console log (this is the AngularJS way of doing **console.log()** in plain JavaScript).
 
@@ -36,7 +36,7 @@ Getting a look at the data
 
 
 Jumping into debug mode
-=======================
+-----------------------
 
 You can always set a breakpoint in your browser's developer mode, but with some JavaScript libraries it can be next to impossible to sort out where to start. Here are some tips specific to ngbp that make it much less impossible.
 
