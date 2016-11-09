@@ -1,5 +1,5 @@
 Some notes on debugging front-end JavaScript in our ngbp framework:
-
+-------------------------------------------------------------------
 (written by Matt on 08/09/2016 Slack AngularJS Channel)
 
 Learn about developer mode
