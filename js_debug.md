@@ -1,4 +1,5 @@
 Some notes on debugging front-end JavaScript in our ngbp framework:
+
 (written by Matt on 08/09/2016 Slack AngularJS Channel)
 
 Learn about developer mode
@@ -27,7 +28,7 @@ Getting a look at the data
 
    and you will get back an object with all scope variables for your inspection.
 
-4. to get a snapshot of data from some REST API (this one searches for 'pa14' on the adage-server), you can do:
+4. To get a snapshot of data from some REST API (this one searches for 'pa14' on the adage-server), you can do:
 
    ```
    shell> curl "http://host/api/v0/search/?limit=0&q=pa14" | python -m json.tool > blah.out.json
