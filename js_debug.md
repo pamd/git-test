@@ -5,7 +5,9 @@ Some notes on debugging front-end JavaScript in our ngbp framework:
 Learn about developer mode
 --------------------------
 
-This often goes without saying, but it is important to get familiar with the developer mode of your browser of choice. Many people swear by Chrome, and it is indeed very good, but Safari and Firefox also have good tools worth exploring.
+This often goes without saying, but it is important to get familiar with the
+developer mode of your browser of choice. Many people swear by Chrome, and it
+is indeed very good, but Safari and Firefox also have good tools worth exploring.
 
 Getting a look at the data
 --------------------------
