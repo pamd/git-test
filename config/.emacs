@@ -7,8 +7,49 @@
 
 ;; Font color
 (global-font-lock-mode t)
+(global-set-key "\C-h" 'backward-delete-char)
+(custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ '(auto-compression-mode t nil (jka-compr))
+ '(case-fold-search t)
+ '(current-language-environment "Latin-1")
+ '(default-input-method "latin-1-prefix")
+ '(pc-select-meta-moves-sexps t)
+ '(pc-select-selection-keys-only t)
+ '(pc-selection-mode t nil (pc-select))
+ '(save-place t)
+ '(show-paren-mode t nil (paren))
+ '(tool-bar-mode nil))
 
-;; Frame and icon titles
+;; Your init file should contain only one "custom-set-faces" instance.
+;; If there is more than one, they won't work right.
+(custom-set-faces
+ '(default ((t (:inherit nil :stipple nil :background "DarkSlateGray" :foreground "Wheat"
+; :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal
+; :weight normal :height 112 :width normal :foundry "unknown"
+;:family "DejaVu Sans Mono-10"
+)))))
+
+;; Set default font
+;(set-face-attribute 'default nil :family "Inconsolata" :height 145 :weight 'normal)
+;(set-default-font "-*-Fixed-Medium-R-*-*-*-140-*-*-*-*-iso8859-1")
+
+;; Alternative ways to set background color, forground color, cursor color.
+;; This method will only change the current frame.
+;; These properties can also be set by "custom-set-faces" instance (see above).
+;(set-background-color "DarkSlateGray")
+;(set-foreground-color "Wheat")
+(set-cursor-color "Orchid")
+
+;; Modify titlebar to contain the current filename (FAQ Common Requests)
+;; "%f" shows filename plus path, while "%b" only shows filename
+;;(setq frame-title-format "%f")
+;;(setq frame-title-format '("%b"))
+;; show more info in taskbar/icon than just "Emacs"
+;; Copied from: http://www.dotemacs.de/dotfiles/BenjaminRutt.emacs.html
 (setq-default frame-title-format (list "%65b %f"))
 (setq-default icon-title-format (list "%b"))
 
@@ -368,7 +409,7 @@
 (require 'vimrc-mode)
 (add-to-list 'auto-mode-alist '("\\.vim\\(rc\\)?\\'" . vimrc-mode))
 
-;; How to load a large fil ein emacs faster?
+;; How to load a large file in emacs faster?
 ;; https://stackoverflow.com/questions/18316665/how-to-improve-emacs-performance-when-view-large-file
 ;; Solution #1: Type "M-x find-file-literally" to open the file, or:
 ;; Solution #2:   (setq jit-lock-defer-time 0.05)

@@ -1,0 +1,122 @@
+;; no emacs start-up message
+(setq inhibit-startup-message t)
+
+;; Redefine some keys.
+(global-set-key [home] 'beginning-of-line)
+(global-set-key [end] 'end-of-line)
+
+;; Font color
+(global-font-lock-mode t)
+(global-set-key "\C-h" 'backward-delete-char)
+(custom-set-variables
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+ '(auto-compression-mode t nil (jka-compr))
+ '(case-fold-search t)
+ '(current-language-environment "Latin-1")
+ '(default-input-method "latin-1-prefix")
+ '(pc-select-meta-moves-sexps t)
+ '(pc-select-selection-keys-only t)
+ '(pc-selection-mode t nil (pc-select))
+ '(save-place t)
+ '(show-paren-mode t nil (paren))
+ '(tool-bar-mode nil))
+
+;; Your init file should contain only one "custom-set-faces" instance.
+;; If there is more than one, they won't work right.
+(custom-set-faces
+ '(default ((t (:inherit nil :stipple nil :background "DarkSlateGray" :foreground "Wheat" 
+; :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal 
+; :weight normal :height 112 :width normal :foundry "unknown" 
+;:family "DejaVu Sans Mono-10"
+)))))
+
+;; Set default font
+;(set-face-attribute 'default nil :family "Inconsolata" :height 145 :weight 'normal)
+;(set-default-font "-*-Fixed-Medium-R-*-*-*-140-*-*-*-*-iso8859-1")
+
+;; Alternative ways to set background color, forground color, cursor color.
+;; This method will only change the current frame.
+;; These properties can also be set by "custom-set-faces" instance (see above).
+;(set-background-color "DarkSlateGray")
+;(set-foreground-color "Wheat")
+(set-cursor-color "Orchid")
+
+;; Modify titlebar to contain the current filename (FAQ Common Requests)
+;; "%f" shows filename plus path, while "%b" only shows filename 
+;;(setq frame-title-format "%f") 
+;;(setq frame-title-format '("%b"))
+;; show more info in taskbar/icon than just "Emacs"
+;; Copied from: http://www.dotemacs.de/dotfiles/BenjaminRutt.emacs.html 
+(setq-default frame-title-format (list "%65b %f"))
+(setq-default icon-title-format (list "%b"))
+
+;; Replace highlighted text (FAQ)
+(delete-selection-mode t)
+
+;; Scroll only one line (FAQ)
+(setq scroll-step 1)
+
+;; Define key combinations (C-x g) to go to a certain line (FAQ)
+(global-set-key "\C-xg" 'goto-line)
+
+;; Set frame font and size
+;(set-frame-font "-*-fixedsysttf-*-*-*-*-15-*-*-*-*-*-*-*")
+;(set-frame-width (selected-frame) 150)
+;(set-frame-height (selected-frame) 60)
+
+;; Set initial and subsequent window sizes
+;; initial window
+(setq initial-frame-alist
+      '(
+        (width . 120) ; character
+        (height . 50) ; lines
+        ))
+
+;; default/subsequent window
+(setq default-frame-alist
+      '(
+        (width . 120) ; character
+        (height . 50) ; lines
+        ))
+
+(add-to-list 'default-frame-alist
+             '(font . "-*-Fixed-Medium-R-*-*-*-140-*-*-*-*-iso8859-1"))
+
+;; Set new default directory when starting up
+;; Refer to: http://xenon.stanford.edu/~manku/emacs.html
+(setq default-directory "~/")
+
+;; ESS-13.09
+(add-to-list 'load-path "~/ess-13.09-1/lisp/")
+(load "ess-site")
+
+;; Required by Google Python class
+(setq indent-tabs-mode nil)
+
+;; Octave mode
+;; https://www.gnu.org/software/octave/doc/interpreter/Using-Octave-Mode.html
+(autoload 'octave-mode "octave-mod" nil t)
+(setq auto-mode-alist
+      (cons '("\\.m$" . octave-mode) auto-mode-alist))
+(add-hook 'octave-mode-hook
+          (lambda ()
+            (abbrev-mode 1)
+            (auto-fill-mode 1)
+            (if (eq window-system 'x)
+                (font-lock-mode 1))))
+
+;; Disable the beep when scrolling trying to move the cursor out of text range
+;;http://stackoverflow.com/questions/11679700/emacs-disable-beep-when-trying-to-move-beyond-the-end-of-the-document
+(defun my-bell-function ()
+  (unless (memq this-command
+        '(isearch-abort abort-recursive-edit exit-minibuffer
+              keyboard-quit mwheel-scroll down up next-line previous-line
+              backward-char forward-char))
+    (ding)))
+(setq ring-bell-function 'my-bell-function)
+
+;; Show both row and column numbers
+(setq column-number-mode t)
