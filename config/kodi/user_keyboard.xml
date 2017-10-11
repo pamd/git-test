@@ -1,6 +1,10 @@
 <!--
-File Path: <username>/AppData/Roaming/Kodi/userdata/keymaps/keyboard.xml
+    File path on Windows:
+      <username>/AppData/Roaming/Kodi/userdata/keymaps/keyboard.xml
+    File path on Linux:
+      ~/.kodi/userdata/keymaps/keyboard.xml
 -->
+
 <keymap>
   <global>
     <keyboard>
@@ -8,3 +12,8 @@ File Path: <username>/AppData/Roaming/Kodi/userdata/keymaps/keyboard.xml
     </keyboard>
   </global>
 </keymap>
+
+<!--
+    Another option: <numpadtimes>
+    Ref: http://kodi.wiki/view/List_of_Kodi_keynames
+-->
