@@ -1,0 +1,81 @@
+! Parts (C) 1996 By Greg J. Badros <gjb@cs.duke.edu>
+! Modification for Linux-Mandrake by Chmouel Boudjnah <chmouel@mandraksoft.com>
+! You may use this file as specified under the GNU General Public License
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Emacs24, xemacs
+!Emacs24*font: -*-Fixed-Medium-R-*-*-*-130-*-*-*-*-iso8859-1
+!Emacs24*font: -*-fixed-medium-r-normal-*-16-*-*-*-*-*-fontset-standard
+Emacs24*font: -misc-fixed-medium-r-*-*-*-115-*-*-*-*-iso8859-1
+Emacs24.Background: DarkSlateGray
+Emacs24.Foreground: Wheat
+Emacs24.pointerColor: Orchid
+Emacs24.cursorColor: Orchid
+Emacs24.region.attributeForeground: White
+Emacs24.region.attributeBackground: SteelBlue
+Emacs24.bitmapIcon: on
+!Emacs24.font: 9x15
+!Emacs24.font: 8x13
+!Emacs24.geometry: 120x60-50+50
+Emacs24.geometry: 120x65-300+50
+!Emacs24*menubar*Foreground: gray0
+!Emacs24*menubar*Background: white
+!Emacs24*menubar.buttonForeground: gray0
+Emacs24*menubar*Foreground: gray0
+Emacs24*menubar*Background: wheat
+Emacs24*menubar.buttonForeground: Blue
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! xterm (and friends)
+
+XTerm*highlightSelection:  true
+! Uncomment this to use color for the bold attribute
+XTerm*VT100*colorBDMode:  on
+XTerm*VT100*colorBD:  blue
+! Uncomment this to use color for underline attribute
+XTerm.VT100*colorULMode:  on
+XTerm.VT100*underLine:  off
+XTerm*VT100*colorUL:  magenta
+! Uncomment this to display the scrollbar 
+XTerm*scrollBar:  true
+
+! This resource specifies whether or not to ignore the 'alternate screen'
+! of applications such as vi.  When it is on, these applications will restore
+! the contents of the screen when they are exited to what they were before
+! they were started.  When it is off, the contents of vi will remain on the
+! screen after the program is quit.
+XTerm.VT100.titeInhibit:  true
+
+! Uncomment this to turn off color mode in your xterms
+!XTerm.VT100*colorMode:  off
+XTerm.VT100*dynamicColors:  on
+
+! Xterm geometry
+XTerm*geometry: 90x50+535+105
+XTerm*font: Fixed
+
+! Number of lines of scrollback to save
+XTerm*saveLines:	1500
+
+xterm*reverseWrap:	true
+
+*visualBell:		true
+*scrollTtyOutput:	False
+*scrollKey:		True
+Scrollbar.JumpCursor:	True
+
+! Suppr support.
+*VT100.Translations: #override \
+<Key>BackSpace: string(0x7F)\n\
+<Key>Delete: string("\033[3~")\n\
+<Key>Home: string("\033[1~")\n\
+<Key>End: string("\033[4~")
+
+! GVim great Colors.
+Vim*background:	black
+Vim*foreground:	lightyellow
+Vim*font:	-misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-15-*5
+Vim*geometry:	88x35
+Vim*menuBackground: black
+Vim*menuForeground: moccasin
