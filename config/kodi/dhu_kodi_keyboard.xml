@@ -1,0 +1,10 @@
+<!--
+File Path: <username>/AppData/Roaming/Kodi/userdata/keymaps/keyboard.xml
+-->
+<keymap>
+  <global>
+    <keyboard>
+	  <numpaddivide>togglefullscreen</numpaddivide>
+    </keyboard>
+  </global>
+</keymap>
