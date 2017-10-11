@@ -7,6 +7,62 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 
+# spwd is defined for bash prompt to show the trailing directories
+spwd () {
+    ( IFS=/
+      set $PWD
+      if test $# -le 4 ; then
+	  echo "$PWD"
+      else
+	  eval echo \"\${$(($# - 2))}/\${$(($# - 1))}/\${$#}\"
+      fi ) ;
+}
+
+# dhu: Prompt colors can be found at:
+# https://wiki.archlinux.org/index.php/Color_Bash_Prompt
+# Do NOT use colors of "[1;*".
+if [ "$color_prompt" = yes ]; then
+    #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    #PS1="${debian_chroot:+($debian_chroot)}\[\033[0;35m\][\u@jade: \$(spwd)]\[\033[00m\]\$ "
+    # Highlight: 42m: green; 45m: purple ("\e" is equavalent to "\033").
+    PS1="${debian_chroot:+($debian_chroot)}\[\e[45m\][\u@jade:\[\e[0;36m\] \$(spwd)]\[\e[0m\]\$ "
+else
+    PS1="${debian_chroot:+($debian_chroot)}\u@\h: \$(spwd)\$ "
+fi
+unset color_prompt force_color_prompt
+
+# If this is an xterm, set the title to user@host:dir
+case "$TERM" in
+xterm*|rxvt*)
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@jade: \w\a\]$PS1"
+    ;;
+*)
+    ;;
+esac
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto -CF'
+    #alias dir='dir --color=auto'
+    #alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+# Setup X (spwd is defined earlier)
+if [ -f ~/.Xresources ] && [ -n "$DISPLAY" ]; then
+    xrdb -load ~/.Xresources
+    #PS1="\[\033[01;34m\][\u: \$(spwd)]$\[\033[0m\] "
+#elif [ -z "$DISPLAY" ]; then
+#    PS1="\u@\h \w$ "
+else
+    #PS1="\[\033[0;35m\][\u@\h: \$(spwd)]$\[\033[0m\] "
+    PS1="\[\033[42m\][\u@\h: \$(spwd)]$\[\033[0m\] "
+fi
+
 umask 0022
 
 # dos2unix
