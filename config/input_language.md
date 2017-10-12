@@ -7,3 +7,6 @@ https://hhddkk.wordpress.com/2016/06/02/install-google-pinyin-in-ubuntu-16-04/
 5. Click +
 6. Search ‘Google’, find ‘Google Pinyin (Fcitx)’
 7. Use ‘Ctrl+space’ to switch between input methods
+
+Google: linux mint change input language
+https://stackoverflow.com/questions/22384513/how-does-one-add-keyboard-languages-and-switch-between-them-in-linux-mint-16
