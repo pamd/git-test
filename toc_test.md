@@ -353,15 +353,15 @@ enforce a limit of 100 instead of 80. This will also be true for editors which
 rely on them.
 
 
-## Support
+## 3. Support
 
 `data-refinery` is supported by [Alex's Lemonade Stand
 Foundation](https://www.alexslemonade.org/), with some initial
 development supported by the Gordon and Betty Moore Foundation via
 GBMF 4552 to Casey Greene.
 
-## dhu session test
+## 5. dhu session test
 
-## License
+## 6. License
 
 BSD 3-Clause License.
