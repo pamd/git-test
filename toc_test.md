@@ -39,7 +39,7 @@ The Data Refinery currently has four sub-projects contained within this repo:
 - [workers](./workers) Runs Downloader and Processor jobs.
 - [terraform](./terraform) Manages infrastructure for the Data Refinery.
 
-## Development
+## 1. Development
 
 ### Git Workflow
 
