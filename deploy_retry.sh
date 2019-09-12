@@ -46,6 +46,9 @@ if [ ! -e submitted/*.yml ] && [ ! -e submitted/*.yaml ]; then
 fi
 
 # Try "git push" commands at most 5 times, with random interval between 0 and 90 seconds
+#
+# Ref: https://blog.eduonix.com/shell-scripting/generating-random-numbers-in-linux-shell-scripting/
+#
 RANDOM=$$  # set random seed to current process ID
 for i in $(seq 5); do
     # Pull latest changes from remote repo to local repo
