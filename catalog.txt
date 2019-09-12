@@ -5,3 +5,4 @@ gwas	triglyceride	NA	glgc_triglycerides.txt.gz	NA	https://drive.google.com/file/
 online 1
 PR_catalog line 1
 PR_catalog line 2
+online 2
