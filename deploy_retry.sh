@@ -45,7 +45,7 @@ if [ ! -e submitted/*.yml ] && [ ! -e submitted/*.yaml ]; then
     ./recover_submitted.sh
 fi
 
-# Try "git push" commands at most 5 times, with random interval between 10 and 100 seconds
+# Try "git push" commands at most 5 times, with random interval between 0 and 90 seconds
 RANDOM=$$  # set random seed to current process ID
 for i in $(seq 5); do
     # Pull latest changes from remote repo to local repo
@@ -70,8 +70,8 @@ for i in $(seq 5); do
     # If "git push" fails, reset the commit
     git reset --hard HEAD~1
 
-    # Sleep for a random number of seconds between 10 and 100 seconds
-    RAND10=$((RANDOM % 10 + 1))
+    # Sleep for a random number of seconds between 0 and 90 seconds
+    RAND10=$((RANDOM % 10))
     echo "`date`: random is $RAND10"
     sleep $((RAND10 * 10))
     echo "`date`: wake up"
