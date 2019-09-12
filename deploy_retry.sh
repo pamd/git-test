@@ -40,6 +40,11 @@ function git_commit() {
     git commit -m "CircleCI: Save processed request ${PR_STR} [skip ci]"
 }
 
+# dhu test code only
+if [ ! -e submitted/*.yml ] && [ ! -e submitted/*.yaml ]; then
+    ./recover_submitted.sh
+fi
+
 # Try "git push" commands at most 5 times, with random interval between 10 and 100 seconds
 RANDOM=$$  # set random seed to current process ID
 for i in $(seq 5); do
