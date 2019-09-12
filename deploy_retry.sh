@@ -40,7 +40,8 @@ function git_commit() {
     git commit -m "CircleCI: Save processed request ${PR_STR} [skip ci]"
 }
 
-# Try "git push" commands at most 5 times, with 10 seconds interval
+# Try "git push" commands at most 5 times, with random interval between 10 and 100 seconds
+RANDOM=$$  # set random seed to current process ID
 for i in $(seq 5); do
     # Pull latest changes from remote repo to local repo
     git pull
@@ -61,7 +62,12 @@ for i in $(seq 5); do
 	break
     fi
 
-    # If "git push" fails, reset the commit, wait for 10 seconds and retry
+    # If "git push" fails, reset the commit
     git reset --hard HEAD~1
-    sleep 10
+
+    # Sleep for a random number of seconds between 10 and 100 seconds
+    RAND10=$((RANDOM % 10 + 1))
+    echo "`date`: random is $RAND10"
+    sleep $((RAND10 * 10))
+    echo "`date`: wake up"
 done
