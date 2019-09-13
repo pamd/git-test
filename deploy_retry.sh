@@ -36,8 +36,14 @@ function git_commit() {
     awk -F'\t' '{ if (NR > 1) print $0 }' PR_catalog.txt >> catalog.txt
     git add catalog.txt
 
-    # Commit changes and push them to remote "master" branch
-    git commit -m "CircleCI: Save processed request ${PR_STR} [skip ci]"
+    # Customize commit message
+    if [ $# -gt 0 ]; then
+	COMMIT_MSG="CircleCI (attempt #$1): Save ${PR_STR} [skip ci]"
+    else
+	COMMIT_MSG="CircleCI: Save ${PR_STR} [skip ci]"
+    fi
+    # Commit changes
+    git commit -m "${COMMIT_MSG}"
 }
 
 # dhu test code only
@@ -52,7 +58,7 @@ for i in $(seq 5); do
     git pull
 
     # Commit all changes to local repo
-    git_commit
+    git_commit $i
 
     # dhu wait:
     date; sleep 30; echo "Starting git push ..."
