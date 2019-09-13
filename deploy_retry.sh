@@ -20,6 +20,11 @@ PR_STR="PR-${PR_NUMBER}"
 
 # awscli commands ...
 
+# dhu test code only
+if [ ! -e submitted/*.yml ] && [ ! -e submitted/*.yaml ]; then
+    ./recover_submitted.sh
+fi
+
 function git_commit() {
     # Move submitted files in the PR to "processed/"
     mkdir -p processed/${PR_STR}/
@@ -45,11 +50,6 @@ function git_commit() {
     # Commit changes
     git commit -m "${COMMIT_MSG}"
 }
-
-# dhu test code only
-if [ ! -e submitted/*.yml ] && [ ! -e submitted/*.yaml ]; then
-    ./recover_submitted.sh
-fi
 
 # Try "git push" commands at most 5 times, with random interval between 0 and 90 seconds
 RANDOM=$$  # set random seed to current process ID
