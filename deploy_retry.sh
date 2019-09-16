@@ -53,7 +53,7 @@ function git_commit() {
 
 # Try "git push" commands at most 5 times, with random interval between 0 and 90 seconds
 RANDOM=$$  # set random seed to current process ID
-for i in $(seq 5); do
+for i in $(seq 10); do
     # Pull latest changes from remote repo to local repo
     git pull
 
