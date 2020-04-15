@@ -27,9 +27,9 @@ ftp://ftp.ncbi.nih.gov/gene/DATA/GENE_INFO/Archaea_Bacteria/Pseudomonas_aerugino
    ```
    The URL is referred by the `CSV` button of `Ortholog Predictions` column in the table on
 `http://pseudomonas.com/strain/download` page. See the screenshot:
-<div align="center">
-    <img src="screenshot_pseudomonas.png"</img>
-</div>
+   <div align="center">
+       <img src="screenshot_pseudomonas.png"</img>
+   </div>
 
    The downloaded `Pseudomonas_aeruginosa_PAO1_107_orthologs.csv.gz` is saved in `raw`
    subdirectory as a reference.
