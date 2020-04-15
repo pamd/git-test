@@ -15,4 +15,5 @@ wget ftp://ftp.ncbi.nih.gov/gene/DATA/gene_history.gz
 gunzip -k gene_history.gz
 (head -1 gene_history; grep "^208964\t" gene_history) > gene_history_208964
 ```
+
    The downloaded `gene_history.gz` is saved in `raw` subdirectory as a referenece.
