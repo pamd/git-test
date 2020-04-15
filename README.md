@@ -10,10 +10,10 @@ ftp://ftp.ncbi.nih.gov/gene/DATA/GENE_INFO/Archaea_Bacteria/Pseudomonas_aerugino
 2. **gene_history_208964**: gene history file of organism whose taxonomy ID is 208964.
 
    This file is generated based on the following procedure:
-```shell
-wget ftp://ftp.ncbi.nih.gov/gene/DATA/gene_history.gz
-gunzip -k gene_history.gz
-(head -1 gene_history; grep "^208964\t" gene_history) > gene_history_208964
-```
+   ```shell
+   wget ftp://ftp.ncbi.nih.gov/gene/DATA/gene_history.gz
+   gunzip -k gene_history.gz
+   (head -1 gene_history; grep "^208964\t" gene_history) > gene_history_208964
+   ```
 
    The downloaded `gene_history.gz` is saved in `raw` subdirectory as a referenece.
