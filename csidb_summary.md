@@ -273,9 +273,9 @@ Folder          | varchar(20) | YES  |     | NULL    |
   `Below_Lower_Limit_Of_Detection`
 
 
-21. **diabetes_variant_seq** --> `Diabetes Variant Sequencing Data`:
-33 rows, 10 columns
-- multiple N_PODCase_ID entries, no primary key!!
+#### 21. `Diabetes Variant Sequencing Data` --> **diabetes_variant_seq**
+  - 33 rows, 10 columns
+  - multiple N_PODCase_ID entries, no primary key!!
 
 Field               | Type         | Null | Key | Default | Extra
 ------------------- | ------------ | ---- | --- | ------- | -----
@@ -291,8 +291,8 @@ Db_SNP              | varchar(30)  | YES  |     | NULL    |
 PubMED              | varchar(200) | YES  |     | NULL    |
 
 
-22. **medical_history** --> `Lifestyle and Medical History`:
-617 rows, 16 columns
+#### 22. `Lifestyle and Medical History` --> **medical_history**
+  - 617 rows, 16 columns
 
 Field                    | Type          | Null | Key | Default | Extra
 ------------------------ | ------------- | ---- | --- | ------- | -----
@@ -314,7 +314,8 @@ Other_Medications        | varchar(4000) | YES  |     | NULL    |
 Hospital_Medications     | varchar(4000) | YES  |     | NULL    |
 
 
-23. **histopathology** --> `Histopathology`: 616 rows, 4 columns
+#### 23. `Histopathology` --> **histopathology**
+  - 616 rows, 4 columns
 
 Field           | Type          | Null | Key | Default | Extra
 --------------- | ------------- | ---- | --- | ------- | -----
@@ -324,8 +325,9 @@ date            | date          | YES  |     | NULL    |
 Histopath_Notes | varchar(1000) | YES  |     | NULL    |
 
 
-24. **unos_ids** --> `UNOS IDs`: 621 rows, 3 columns
-- dhu Q1: What does "UNOS" stand for?
+#### 24. `UNOS IDs`: --> **unos_ids**
+  - 621 rows, 3 columns
+  - dhu Q1: What does "UNOS" stand for?
 
 Field        | Type        | Null | Key | Default | Extra
 ------------ | ----------- | ---- | --- | ------- | -----
@@ -334,7 +336,8 @@ date         | date        | YES  |     | NULL    |
 UNOS_ID      | varchar(50) | YES  |     | NULL    |
 
 
-25. **class1_npodv** --> `Class1_nPODV`: 434 rows, 21 columns
+#### 25. `Class1_nPODV` --> **class1_npodv**
+  - 434 rows, 21 columns
 
 Field                         | Type        | Null | Key | Default | Extra
 ----------------------------- | ----------- | ---- | --- | ------- | -----
@@ -361,8 +364,8 @@ Vial_ID                       | varchar(40) | YES  |     | NULL    |
 Data_Entry_QC_Notes           | varchar(40) | YES  |     | NULL    |
 
 
-26. **aggregated_pancreatitis** --> `Aggregated Pancreatitis Case Information`:
-59 rows, 4 columns
+#### 26. `Aggregated Pancreatitis Case Information`: --> **aggregated_pancreatitis**
+  - 59 rows, 4 columns
 
 Field            | Type         | Null | Key | Default | Extra
 ---------------- | ------------ | ---- | --- | ------- | -----
@@ -371,8 +374,9 @@ date             | date         | YES  |     | NULL    |
 Clinical_History | varchar(400) | YES  |     | NULL    |
 Histopathology   | varchar(400) | YES  |     | NULL    |
 
-27. **labs_closest_to_recovery** --> `Labs Taken Closest to Organ Recovery`:
-331 rows, 13 columns
+
+#### 27. `Labs Taken Closest to Organ Recovery` --> **labs_closest_to_recovery**
+  - 331 rows, 13 columns
 
 Field               | Type        | Null | Key | Default | Extra
 ------------------- | ----------- | ---- | --- | ------- | -----
@@ -391,8 +395,8 @@ pH                  | float       | YES  |     | NULL    |
 Hematocrit          | float       | YES  |     | NULL    |
 
 
-28. **meds_prior_to_recovery** --> `Meds Given w/in 24hrs Prior to Organ Recovery Start`:
-369 rows, 16 columns
+#### 28. `Meds Given w/in 24hrs Prior to Organ Recovery Start` --> **meds_prior_to_recovery**
+  - 369 rows, 16 columns
 
 Field        | Type         | Null | Key | Default | Extra
 ------------ | ------------ | ---- | --- | ------- | -----
@@ -413,7 +417,9 @@ Other_Meds1  | varchar(200) | YES  |     | NULL    |
 Other_Meds2  | varchar(200) | YES  |     | NULL    |
 Other_Meds3  | varchar(200) | YES  |     | NULL    |
 
-29. **serologies** --> `Serologies`: 619 rows, 9 columns
+
+#### 29. `Serologies` --> **serologies**
+  - 619 rows, 9 columns
 
 Field          | Type         | Null | Key | Default | Extra
 -------------- | ------------ | ---- | --- | ------- | -----
@@ -428,8 +434,8 @@ Anti_Hcv       | varchar(10)  | YES  |     | NULL    |
 Serology_Notes | varchar(200) | YES  |     | NULL    |
 
 
-30. **transfusions_infections** --> ` Transfusions and Infections`:
-619 rows, 13 columns
+#### 30. `Transfusions and Infections` --> **transfusions_infections**
+  - 619 rows, 13 columns
 
 Field                     | Type         | Null | Key | Default | Extra
 ------------------------- | ------------ | ---- | --- | ------- | -----
@@ -448,8 +454,8 @@ Other_Inf                 | varchar(5)   | YES  |     | NULL    |
 Other_Infection_Notes     | varchar(600) | YES  |     | NULL    |
 
 
-31. **diabetes_information** --> `Diabetes Information`:
-622 rows, 11 columns
+#### 31. `Diabetes Information` --> **diabetes_information**
+  - 622 rows, 11 columns
 
 Field                  | Type         | Null | Key | Default | Extra
 ---------------------- | ------------ | ---- | --- | ------- | -----
@@ -466,8 +472,8 @@ Diabetes_Meds_Taken    | varchar(200) | YES  |     | NULL    |
 Pancreas_Disease_Notes | varchar(200) | YES  |     | NULL    |
 
 
-32. **lowres_hla_at_donation** --> `Low Resolution HLA at Organ Donation`:
-621 rows, 4 columns
+32. `Low Resolution HLA at Organ Donation` --> **lowres_hla_at_donation**
+  - 621 rows, 4 columns
 
 Field                  | Type         | Null | Key | Default | Extra
 ---------------------- | ------------ | ---- | --- | ------- | -----
