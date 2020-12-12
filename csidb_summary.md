@@ -1,7 +1,8 @@
 "csidb" Database Summary:
 =========================
 
-#### 1. `Demographics` --> **demographics**: 617 rows, 13 columns
+#### 1. `Demographics` --> **demographics**
+617 rows, 13 columns
 
 Field               | Type         | Null | Key | Default | Extra
 ------------------- | ------------ | ---- | --- | ------- | -----
@@ -19,7 +20,8 @@ ABO_group           | varchar(10)  | YES  |     | NULL    |
 Donor_Type          | varchar(50)  | YES  |     | NULL    |
 Donor_Type_Comments | varchar(400) | YES  |     | NULL    |
 
-#### 2. `Pancreas Weights` --> **pancreas_weights**: 618 rows, 8 columns
+#### 2. `Pancreas Weights` --> **pancreas_weights**
+618 rows, 8 columns
 
 Field           | Type         | Null | Key | Default | Extra
 ----------------| ------------ | ---- | --- | ------- | -----
@@ -32,7 +34,7 @@ Panbody         | float        | YES  |     | NULL    |
 Pantail         | float        | YES  |     | NULL    |
 Comments        | varchar(400) | YES  |     | NULL    |
 
-##### 3. `Duration of Donor Hospitalization` --> **duration_of_donor_hosp**:
+#### 3. `Duration of Donor Hospitalization` --> **duration_of_donor_hosp**
 620 rows, 4 columns
 
 Field                        | Type        | Null | Key | Default | Extra
@@ -42,7 +44,7 @@ Donor_Type                   | varchar(50) | YES  |     | NULL    |
 Hospitalization_Stay_Minutes | int         | YES  |     | NULL    |
 Hospitalization_Stay_Days    | float       | YES  |     | NULL    |
 
-4. `Organ Transportation Time` --> **organ_transportation_time**:
+#### 4. `Organ Transportation Time` --> **organ_transportation_time**
 620 rows, 4 columns
 
 Field                      | Type        | Null | Key | Default | Extra
@@ -52,10 +54,10 @@ Donor_Type                 | varchar(50) | YES  |     | NULL    |
 Transport_Duration_Minutes | int         | YES  |     | NULL    |
 Transport_Duration_Hours   | float       | YES  |     | NULL    |
 
-5. `Hi Res HLA Post Receipt of Organ` --> **hires_receipt_of_organ**:
-619 rows, 27 columns
-- "Hi Res" stands for "high resolution"
-- dhu Q: What is `HLA`?
+#### 5. `Hi Res HLA Post Receipt of Organ` --> **hires_receipt_of_organ**:
+  - 619 rows, 27 columns
+  - "Hi Res" stands for "high resolution"
+  - dhu Q: What is `HLA`?
 
 Field           | Type        | Null | Key | Default | Extra
 --------------- | ----------- | ---- | --- | ------- | -----
