@@ -1,7 +1,7 @@
 "csidb" Database Summary:
 =========================
 
-##### 1. `Demographics` --> **demographics**: 617 rows, 13 columns
+#### 1. `Demographics` --> **demographics**: 617 rows, 13 columns
 
 Field               | Type         | Null | Key | Default | Extra
 ------------------- | ------------ | ---- | --- | ------- | -----
@@ -19,7 +19,7 @@ ABO_group           | varchar(10)  | YES  |     | NULL    |
 Donor_Type          | varchar(50)  | YES  |     | NULL    |
 Donor_Type_Comments | varchar(400) | YES  |     | NULL    |
 
-##### 2. `Pancreas Weights` --> **pancreas_weights**: 618 rows, 8 columns
+#### 2. `Pancreas Weights` --> **pancreas_weights**: 618 rows, 8 columns
 
 Field           | Type         | Null | Key | Default | Extra
 ----------------| ------------ | ---- | --- | ------- | -----
