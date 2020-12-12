@@ -2,7 +2,7 @@
 =========================
 
 #### 1. `Demographics` --> **demographics**
-617 rows, 13 columns
+  - 617 rows, 13 columns
 
 Field               | Type         | Null | Key | Default | Extra
 ------------------- | ------------ | ---- | --- | ------- | -----
@@ -21,7 +21,7 @@ Donor_Type          | varchar(50)  | YES  |     | NULL    |
 Donor_Type_Comments | varchar(400) | YES  |     | NULL    |
 
 #### 2. `Pancreas Weights` --> **pancreas_weights**
-618 rows, 8 columns
+  - 618 rows, 8 columns
 
 Field           | Type         | Null | Key | Default | Extra
 ----------------| ------------ | ---- | --- | ------- | -----
@@ -34,8 +34,9 @@ Panbody         | float        | YES  |     | NULL    |
 Pantail         | float        | YES  |     | NULL    |
 Comments        | varchar(400) | YES  |     | NULL    |
 
+
 #### 3. `Duration of Donor Hospitalization` --> **duration_of_donor_hosp**
-620 rows, 4 columns
+  - 620 rows, 4 columns
 
 Field                        | Type        | Null | Key | Default | Extra
 ---------------------------- | ----------- | ---- | --- | ------- | ------
@@ -44,8 +45,9 @@ Donor_Type                   | varchar(50) | YES  |     | NULL    |
 Hospitalization_Stay_Minutes | int         | YES  |     | NULL    |
 Hospitalization_Stay_Days    | float       | YES  |     | NULL    |
 
+
 #### 4. `Organ Transportation Time` --> **organ_transportation_time**
-620 rows, 4 columns
+  - 620 rows, 4 columns
 
 Field                      | Type        | Null | Key | Default | Extra
 -------------------------- | ----------- | ---- | --- | ------- | -----
@@ -53,6 +55,7 @@ N_PODCase_ID               | varchar(30) | NO   | PRI |         |
 Donor_Type                 | varchar(50) | YES  |     | NULL    |
 Transport_Duration_Minutes | int         | YES  |     | NULL    |
 Transport_Duration_Hours   | float       | YES  |     | NULL    |
+
 
 #### 5. `Hi Res HLA Post Receipt of Organ` --> **hires_receipt_of_organ**:
   - 619 rows, 27 columns
@@ -89,8 +92,9 @@ Transplant_DR_2 | varchar(20) | YES  |     | NULL    |
 Transplant_DQ_1 | varchar(20) | YES  |     | NULL    |
 Transplant_DQ_2 | varchar(20) | YES  |     | NULL    |
 
-6. **pancreas_medical_info** --> `Pancreas Weight and Limited Medical Info`:
-618 rows, 9 columns
+
+#### 6. `Pancreas Weight and Limited Medical Info` --> **pancreas_medical_info**
+  - 618 rows, 9 columns
 
 Field           | Type        | Null | Key | Default | Extra
 --------------- | ----------- | ---- | --- | ------- | -----
@@ -104,9 +108,10 @@ Panbody         | float       | YES  |     | NULL    |
 Pantail         | float       | YES  |     | NULL    |
 Comments        | varchar(400)| YES  |     | NULL    |
 
-7. **recovery_ria_aab_titer** --> `Recovery_RIA_Aab_Titers`:
-616 rows, 11 columns:
-- dhu Q1: What do `RIA` and `Aab` stand for?
+
+#### 7. `Recovery_RIA_Aab_Titers` --> **recovery_ria_aab_titer**
+  - 616 rows, 11 columns:
+  - dhu Q1: What do `RIA` and `Aab` stand for?
 
 Field                     | Type         | Null | Key | Default | Extra
 ------------------------- | ------------ | ---- | --- | ------- | -----
@@ -122,8 +127,9 @@ Sample                    | varchar(20)  | YES  |     | NULL    |
 OPPC_Only_Notes           | varchar(400) | YES  |     | NULL    |
 Comments_To_Investigators | varchar(800) | YES  |     | NULL    |
 
-8. **donor_admin** --> `Donor Admin and Sample Processing Notes`:
-617 rows, 11 columns
+
+#### 8. `Donor Admin and Sample Processing Notes` --> **donor_admin**
+  - 617 rows, 11 columns
 
 Field                  | Type          | Null | Key | Default | Extra
 ---------------------- | ------------- | ---- | --- | ------- | -----
@@ -139,8 +145,10 @@ OPO_ID                 | varchar(400)  | YES  |     | NULL    |
 Spectrum               | tinyint(1)    | YES  |     | NULL    |
 Notes_from_Cases_Table | varchar(600)  | YES  |     | NULL    |
 
-9. **raw_c_peptide_values** --> `Raw_C_Peptide_Values`: 622 rows, 4 columns
-- dhu Q1: What does `C` stand for?
+
+#### 9. `Raw_C_Peptide_Values`: --> **raw_c_peptide_values**
+  - 622 rows, 4 columns
+  - dhu Q1: What does `C` stand for?
 
 Field                          | Type        | Null | Key | Default | Extra
 ------------------------------ | ----------- | ---- | --- | ------- | -----
@@ -149,7 +157,8 @@ date                           | date        | YES  |     | NULL    |
 Below_Lower_Limit_Of_Detection | varchar(50) | YES  |     | NULL    |
 Numeric_Value                  | double      | YES  |     | NULL    |
 
-10. **case_flag** --> `Case Flag`: 618 rows, 3 columns
+#### 10. `Case Flag` --> **case_flag**
+  - 618 rows, 3 columns
 
 Field        | Type         | Null | Key | Default | Extra
 ------------ | ------------ | ---- | --- | ------- | -----
@@ -157,8 +166,10 @@ N_PODCase_ID | varchar(30)  | NO   | PRI |         |
 date         | date         | YES  |     | NULL    |
 Flag_Notes   | varchar(200) | YES  |     | NULL    |
 
-11. **donor_timelines** --> `Donor Timelines (Raw Data)`: 620 rows, 8 columns
-- dhu: many `Organ_Received_Datetime`, `Organ_Frozen_Datetime`, `Admit_Datetime`,
+
+#### 11. `Donor Timelines (Raw Data)` --> **donor_timelines**
+  - 620 rows, 8 columns
+  - dhu: many `Organ_Received_Datetime`, `Organ_Frozen_Datetime`, `Admit_Datetime`,
 `Braindeath_Datetime` and `Xclamp_Datetime` values are "0000-00-00 00:00:00".
 
 Field                   | Type        | Null | Key | Default | Extra
@@ -172,11 +183,12 @@ Admit_Datetime          | datetime    | YES  |     | NULL    |
 Braindeath_Datetime     | datetime    | YES  |     | NULL    |
 Xclamp_Datetime         | datetime    | YES  |     | NULL    |
 
-12. `Organ_Transport_Times`: View has errors ??? for processing only?
+#### 12. `Organ_Transport_Times`: View has errors ??? for processing only?
 
-13. `Terminal_Hospital_Duration`: View has errors ??? for processing only?
+#### 13. `Terminal_Hospital_Duration`: View has errors ??? for processing only?
 
-14. **rna_quality_rin_values** --> `RNA_quality_RIN_values`: 489 rows, 8 columns
+#### 14. `RNA_quality_RIN_values` --> **rna_quality_rin_values**
+  - 489 rows, 8 columns
 
 Field             | Type        | Null | Key | Default | Extra
 ----------------- | ----------- | ---- | --- | ------- | -----
@@ -189,7 +201,8 @@ Aliquot_Type      | varchar(20) | YES  |     | NULL    |
 Block_Vial_Number | varchar(10) | YES  |     | NULL    |
 RIN_Value         | float       | YES  |     | NULL    |
 
-15. **ria_autoab_results** --> `RIA_AutoAb_Results`: 616 rows, 18 columns
+#### 15. `RIA_AutoAb_Results` --> **ria_autoab_results**
+  - 616 rows, 18 columns
 
 Field                        | Type         | Null | Key | Default | Extra
 ---------------------------- | ------------ | ---- | --- | ------- | -----
@@ -204,12 +217,13 @@ Total_Positive_Auto_Ab_Count | int          | YES  |     | NULL    |
 Sample                       | varchar(30)  | YES  |     | NULL    |
 Comments_To_Investigators    | varchar(800) | YES  |     | NULL    |
 
-16. `Endocrine Cell Function`: No data to show
+#### 16. `Endocrine Cell Function`: No data to show
 
-17. `HiRes HLA Post Receipt of Organ`:
-now called **hires_receipt_of_organ** (see `#5`)
+#### 17. `HiRes HLA Post Receipt of Organ`:
+  - now called **hires_receipt_of_organ** (see `#5`)
 
-18. **age_at_onset** --> `Age_At_Onset Dataset`: 622 rows, 5 columns
+#### 18. `Age_At_Onset Dataset` --> **age_at_onset**
+  - 622 rows, 5 columns
 
 Field             | Type        | Null | Key | Default | Extra
 ----------------- | ----------- | ---- | --- | ------- | -----
@@ -220,8 +234,8 @@ Diabetes_Duration | float       | YES  |     | NULL    |
 Age_At_Onset      | float       | YES  |     | NULL    |
 
 
-19. **hires_hla_clean_tcr_paper** --> `HiRes_HLA_clean_TCR_paper`:
-619 rows, 27 columns
+#### 19. `HiRes_HLA_clean_TCR_paper` --> **hires_hla_clean_tcr_paper**
+  - 619 rows, 27 columns
 
 Field           | Type        | Null | Key | Default | Extra
 --------------- | ----------- | ---- | --- | ------- | -----
@@ -254,9 +268,9 @@ Transplant_DQ_2 | varchar(20) | YES  |     | NULL    |
 Folder          | varchar(20) | YES  |     | NULL    |
 
 
-20. `Raw_C-Peptide_Values_Query Snapshot`:
-- duplicate of **raw_c_peptide_values** (see `#9`), with 1 fewer field:
-`Below_Lower_Limit_Of_Detection`
+#### 20. `Raw_C-Peptide_Values_Query Snapshot`:
+  - duplicate of **raw_c_peptide_values** (see `#9`), with one fewer field:
+  `Below_Lower_Limit_Of_Detection`
 
 
 21. **diabetes_variant_seq** --> `Diabetes Variant Sequencing Data`:
