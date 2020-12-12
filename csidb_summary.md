@@ -57,7 +57,7 @@ Transport_Duration_Minutes | int         | YES  |     | NULL    |
 Transport_Duration_Hours   | float       | YES  |     | NULL    |
 
 
-#### 5. `Hi Res HLA Post Receipt of Organ` --> **hires_receipt_of_organ**:
+#### 5. `Hi Res HLA Post Receipt of Organ` --> **hires_receipt_of_organ**
   - 619 rows, 27 columns
   - "Hi Res" stands for "high resolution"
   - dhu Q: What is `HLA`?
@@ -110,7 +110,7 @@ Comments        | varchar(400)| YES  |     | NULL    |
 
 
 #### 7. `Recovery_RIA_Aab_Titers` --> **recovery_ria_aab_titer**
-  - 616 rows, 11 columns:
+  - 616 rows, 11 columns
   - dhu Q1: What do `RIA` and `Aab` stand for?
 
 Field                     | Type         | Null | Key | Default | Extra
@@ -146,7 +146,7 @@ Spectrum               | tinyint(1)    | YES  |     | NULL    |
 Notes_from_Cases_Table | varchar(600)  | YES  |     | NULL    |
 
 
-#### 9. `Raw_C_Peptide_Values`: --> **raw_c_peptide_values**
+#### 9. `Raw_C_Peptide_Values` --> **raw_c_peptide_values**
   - 622 rows, 4 columns
   - dhu Q1: What does `C` stand for?
 
@@ -325,7 +325,7 @@ date            | date          | YES  |     | NULL    |
 Histopath_Notes | varchar(1000) | YES  |     | NULL    |
 
 
-#### 24. `UNOS IDs`: --> **unos_ids**
+#### 24. `UNOS IDs` --> **unos_ids**
   - 621 rows, 3 columns
   - dhu Q1: What does "UNOS" stand for?
 
@@ -364,7 +364,7 @@ Vial_ID                       | varchar(40) | YES  |     | NULL    |
 Data_Entry_QC_Notes           | varchar(40) | YES  |     | NULL    |
 
 
-#### 26. `Aggregated Pancreatitis Case Information`: --> **aggregated_pancreatitis**
+#### 26. `Aggregated Pancreatitis Case Information` --> **aggregated_pancreatitis**
   - 59 rows, 4 columns
 
 Field            | Type         | Null | Key | Default | Extra
