@@ -1,0 +1,223 @@
+A_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+A_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Age_At_Onset
+  (1)	{'table': 'age_at_onset', 'type': 'float'}
+  (2)	{'table': 'diabetes_information', 'type': 'float'}
+
+Aliquot_Type
+  (1)	{'table': 'rna_quality_rin_values', 'type': 'varchar(20)'}
+  (2)	{'table': 'class1_npodv', 'type': 'varchar(40)'}
+
+B_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+B_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Block_Vial_Number
+  (1)	{'table': 'rna_quality_rin_values', 'type': 'varchar(10)'}
+  (2)	{'table': 'class1_npodv', 'type': 'varchar(40)'}
+
+C_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+C_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Clinical_History
+  (1)	{'table': 'medical_history', 'type': 'varchar(4000)'}
+  (2)	{'table': 'aggregated_pancreatitis', 'type': 'varchar(400)'}
+
+Comments
+  (1)	{'table': 'pancreas_weights', 'type': 'varchar(400)'}
+  (2)	{'table': 'pancreas_medical_info', 'type': 'varchar(400)'}
+
+Comments_To_Investigators
+  (1)	{'table': 'recovery_ria_aab_titer', 'type': 'varchar(800)'}
+  (2)	{'table': 'ria_autoab_results', 'type': 'varchar(800)'}
+
+DPA1_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+DPA1_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+DPB1_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+DPB1_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+DQA1_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+DQA1_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+DQB1_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+DQB1_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+DRB1_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+DRB1_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Diabetes_Duration
+  (1)	{'table': 'age_at_onset', 'type': 'float'}
+  (2)	{'table': 'diabetes_information', 'type': 'float'}
+
+Donor_Type
+  (1)	{'table': 'demographics', 'type': 'varchar(50)'}
+  (2)	{'table': 'pancreas_weights', 'type': 'varchar(50)'}
+  (3)	{'table': 'duration_of_donor_hosp', 'type': 'varchar(50)'}
+  (4)	{'table': 'organ_transportation_time', 'type': 'varchar(50)'}
+  (5)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(50)'}
+  (6)	{'table': 'pancreas_medical_info', 'type': 'varchar(50)'}
+  (7)	{'table': 'donor_admin', 'type': 'varchar(50)'}
+  (8)	{'table': 'donor_timelines', 'type': 'varchar(50)'}
+  (9)	{'table': 'rna_quality_rin_values', 'type': 'varchar(50)'}
+  (10)	{'table': 'ria_autoab_results', 'type': 'varchar(50)'}
+  (11)	{'table': 'medical_history', 'type': 'varchar(50)'}
+  (12)	{'table': 'histopathology', 'type': 'varchar(50)'}
+  (13)	{'table': 'labs_closest_to_recovery', 'type': 'varchar(50)'}
+  (14)	{'table': 'meds_prior_to_recovery', 'type': 'varchar(50)'}
+  (15)	{'table': 'serologies', 'type': 'varchar(50)'}
+  (16)	{'table': 'transfusions_infections', 'type': 'varchar(50)'}
+  (17)	{'table': 'diabetes_information', 'type': 'varchar(50)'}
+  (18)	{'table': 'lowres_hla_at_donation', 'type': 'varchar(50)'}
+
+N_PODCase_ID
+  (1)	{'table': 'demographics', 'type': 'varchar(30)'}
+  (2)	{'table': 'pancreas_weights', 'type': 'varchar(30)'}
+  (3)	{'table': 'duration_of_donor_hosp', 'type': 'varchar(30)'}
+  (4)	{'table': 'organ_transportation_time', 'type': 'varchar(30)'}
+  (5)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(30)'}
+  (6)	{'table': 'pancreas_medical_info', 'type': 'varchar(30)'}
+  (7)	{'table': 'recovery_ria_aab_titer', 'type': 'varchar(30)'}
+  (8)	{'table': 'donor_admin', 'type': 'varchar(30)'}
+  (9)	{'table': 'raw_c_peptide_values', 'type': 'varchar(30)'}
+  (10)	{'table': 'case_flag', 'type': 'varchar(30)'}
+  (11)	{'table': 'donor_timelines', 'type': 'varchar(30)'}
+  (12)	{'table': 'rna_quality_rin_values', 'type': 'varchar(30)'}
+  (13)	{'table': 'ria_autoab_results', 'type': 'varchar(30)'}
+  (14)	{'table': 'age_at_onset', 'type': 'varchar(30)'}
+  (15)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(30)'}
+  (16)	{'table': 'diabetes_variant_seq', 'type': 'varchar(30)'}
+  (17)	{'table': 'medical_history', 'type': 'varchar(30)'}
+  (18)	{'table': 'histopathology', 'type': 'varchar(30)'}
+  (19)	{'table': 'unos_ids', 'type': 'varchar(30)'}
+  (20)	{'table': 'class1_npodv', 'type': 'varchar(30)'}
+  (21)	{'table': 'aggregated_pancreatitis', 'type': 'varchar(30)'}
+  (22)	{'table': 'labs_closest_to_recovery', 'type': 'varchar(30)'}
+  (23)	{'table': 'meds_prior_to_recovery', 'type': 'varchar(30)'}
+  (24)	{'table': 'serologies', 'type': 'varchar(30)'}
+  (25)	{'table': 'transfusions_infections', 'type': 'varchar(30)'}
+  (26)	{'table': 'diabetes_information', 'type': 'varchar(30)'}
+  (27)	{'table': 'lowres_hla_at_donation', 'type': 'varchar(30)'}
+
+Panbody
+  (1)	{'table': 'pancreas_weights', 'type': 'float'}
+  (2)	{'table': 'pancreas_medical_info', 'type': 'float'}
+
+Pancreas_Intact
+  (1)	{'table': 'pancreas_weights', 'type': 'tinyint(1)'}
+  (2)	{'table': 'pancreas_medical_info', 'type': 'tinyint(1)'}
+
+Panhead
+  (1)	{'table': 'pancreas_weights', 'type': 'float'}
+  (2)	{'table': 'pancreas_medical_info', 'type': 'float'}
+
+Pantail
+  (1)	{'table': 'pancreas_weights', 'type': 'float'}
+  (2)	{'table': 'pancreas_medical_info', 'type': 'float'}
+
+Sample
+  (1)	{'table': 'recovery_ria_aab_titer', 'type': 'varchar(20)'}
+  (2)	{'table': 'ria_autoab_results', 'type': 'varchar(30)'}
+
+Sample_Type
+  (1)	{'table': 'rna_quality_rin_values', 'type': 'varchar(20)'}
+  (2)	{'table': 'class1_npodv', 'type': 'varchar(40)'}
+
+Transplant_A_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Transplant_A_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Transplant_B_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Transplant_B_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Transplant_DQ_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Transplant_DQ_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Transplant_DR_1
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Transplant_DR_2
+  (1)	{'table': 'hires_receipt_of_organ', 'type': 'varchar(20)'}
+  (2)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'varchar(20)'}
+
+Whole_Pancreas
+  (1)	{'table': 'pancreas_weights', 'type': 'float'}
+  (2)	{'table': 'pancreas_medical_info', 'type': 'float'}
+
+date
+  (1)	{'table': 'demographics', 'type': 'date'}
+  (2)	{'table': 'hires_receipt_of_organ', 'type': 'date'}
+  (3)	{'table': 'recovery_ria_aab_titer', 'type': 'date'}
+  (4)	{'table': 'donor_admin', 'type': 'date'}
+  (5)	{'table': 'raw_c_peptide_values', 'type': 'date'}
+  (6)	{'table': 'case_flag', 'type': 'date'}
+  (7)	{'table': 'donor_timelines', 'type': 'date'}
+  (8)	{'table': 'rna_quality_rin_values', 'type': 'date'}
+  (9)	{'table': 'ria_autoab_results', 'type': 'date'}
+  (10)	{'table': 'age_at_onset', 'type': 'date'}
+  (11)	{'table': 'hires_hla_clean_tcr_paper', 'type': 'date'}
+  (12)	{'table': 'histopathology', 'type': 'date'}
+  (13)	{'table': 'unos_ids', 'type': 'date'}
+  (14)	{'table': 'class1_npodv', 'type': 'date'}
+  (15)	{'table': 'aggregated_pancreatitis', 'type': 'date'}
+  (16)	{'table': 'lowres_hla_at_donation', 'type': 'date'}
+
+date_string
+  (1)	{'table': 'rna_quality_rin_values', 'type': 'varchar(20)'}
+  (2)	{'table': 'class1_npodv', 'type': 'varchar(20)'}
+

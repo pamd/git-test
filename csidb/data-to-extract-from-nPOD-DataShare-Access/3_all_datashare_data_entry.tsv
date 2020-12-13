@@ -1,0 +1,226 @@
+Dataset Fields	Label	Data Type	Format	Table in DataShare	Note
+oppc_PanIntact_	Pancreas Intact?	True/False (Boolean)		Pancreas Weight and Limited Medical Info Dataset Properties
+oppc_pancreasWT	Whole Pancreas (g)	Number (Double)		Pancreas Weight and Limited Medical Info Dataset Properties
+oppc_PanUncinate	PanUncinate (g)	Number (Double)	##.##	Pancreas Weight and Limited Medical Info Dataset Properties	Viewable to nPOD Staff Only
+oppc_PanHead	PanHead (g)	Number (Double)		Pancreas Weight and Limited Medical Info Dataset Properties
+oppc_PanBody	PanBody (g)	Number (Double)		Pancreas Weight and Limited Medical Info Dataset Properties
+oppc_PanTail	Pantail (g)	Number (Double)		Pancreas Weight and Limited Medical Info Dataset Properties
+oppc_Gallbladder	Gallbladder Notes	Text (String)		Pancreas Weight and Limited Medical Info Dataset Properties	Viewable to nPOD Staff Only
+oppc_Hemodiluted	Hemodiluted	Text (String)		Pancreas Weight and Limited Medical Info Dataset Properties	Viewable to nPOD Staff Only
+transfusions_rec	Number Transfusions Received	Text (String)		Pancreas Weight and Limited Medical Info Dataset Properties	Viewable to nPOD Staff Only
+Comments	Comments	Text (String)		Pancreas Weight and Limited Medical Info Dataset Properties
+nPODCaseID	N PODCase ID	Text (String)		Pancreas Weight and Limited Medical Info Dataset Properties
+date	Date	Date and Time		Pancreas Weight and Limited Medical Info Dataset Properties	Viewable to nPOD Staff Only
+GADA	GADA	Number (Double)	##.####	Recovery_RIA_Aab_Titers	Viewable to nPOD Staff Only
+IA_2A	IA2A	Number (Double)	##.####	Recovery_RIA_Aab_Titers	Viewable to nPOD Staff Only
+mIAA	mIAA	Number (Double)	##.####	Recovery_RIA_Aab_Titers	Viewable to nPOD Staff Only
+ZnT8A	ZnT8A	Number (Double)	##.####	Recovery_RIA_Aab_Titers	Viewable to nPOD Staff Only
+Date_Rcvd	Date Rcvd	Date and Time		Recovery_RIA_Aab_Titers	Viewable to nPOD Staff Only
+Date_Rptd	Date Rptd	Date and Time		Recovery_RIA_Aab_Titers	Viewable to nPOD Staff Only
+Sample	Sample	Text (String)		Recovery_RIA_Aab_Titers	Viewable to nPOD Staff Only
+Comments	OPPC Only Notes	Text (String)		Recovery_RIA_Aab_Titers	Viewable to nPOD Staff Only
+Public_Comments	Comments To Investigators	Text (String)		Recovery_RIA_Aab_Titers
+nPODCaseID	N PODCase ID	Text (String)		Recovery_RIA_Aab_Titers	Viewable to nPOD Staff Only
+date	Date	Date and Time		Recovery_RIA_Aab_Titers	Viewable to nPOD Staff Only
+oppc_acceptedas1	Accepted As	Text (String)		Donor Admin and Sample Processing Notes	Viewable to nPOD Staff Only
+oppc_AperioID	Aperio ID	Integer		Donor Admin and Sample Processing Notes	Viewable to nPOD Staff Only
+oppc_Consent_Restriction	Consent Restriction	True/False (Boolean)		Donor Admin and Sample Processing Notes	Viewable to nPOD Staff Only
+oppc_OtherInfo	Other Information	Text (String)		Donor Admin and Sample Processing Notes	Viewable to nPOD Staff Only
+oppc_Source	Source	Text (String)		Donor Admin and Sample Processing Notes	Viewable to nPOD Staff Only
+oppc_OPO_ID	OPO ID	Integer		Donor Admin and Sample Processing Notes	Viewable to nPOD Staff Only
+oppc_spectrum	Spectrum	True/False (Boolean)		Donor Admin and Sample Processing Notes	Viewable to nPOD Staff Only
+oppc_notes_from_cases_table	Notes from Cases Table	Text (String)		Donor Admin and Sample Processing Notes	Viewable to nPOD Staff Only
+nPODCaseID	N PODCase ID	Text (String)		Donor Admin and Sample Processing Notes	Viewable to nPOD Staff Only
+date	Date	Date and Time		Donor Admin and Sample Processing Notes	Viewable to nPOD Staff Only
+Below Lower Limit of Detection	Below Lower Limit of Detection	Integer		Raw_C_Peptide_Values	Viewable to nPOD Staff Only
+Numeric Value	Numeric Value	Number (Double)		Raw_C_Peptide_Values	Viewable to nPOD Staff Only
+nPODCaseID	N PODCase ID	Text (String)		Raw_C_Peptide_Values	Viewable to nPOD Staff Only
+date	Date	Date and Time		Raw_C_Peptide_Values	Viewable to nPOD Staff Only
+Flag Notes	Flag Notes	Text (String)		Case Flag	Viewable to nPOD Staff Only
+nPODCaseID	N PODCase ID	Text (String)		Case Flag	Viewable to nPOD Staff Only
+date	Date	Date and Time		Case Flag	Viewable to nPOD Staff Only
+UNOS_ID	UNOS ID	Text (String)		UNOS IDs	Viewable to nPOD Staff Only
+nPODCaseID	N PODCase ID	Text (String)		UNOS IDs	Viewable to nPOD Staff Only
+date	Date	Date and Time		UNOS IDs	Viewable to nPOD Staff Only
+oppc_Gender	Sex	Text (String)		Demographics
+oppc_Ethnicity	Race	Text (String)		Demographics
+cod_final	Cause of Death	Text (String)		Demographics
+multi_organ_donor	Multi-Organ Donor	True/False (Boolean)		Demographics	Viewable to nPOD Staff Only
+non_hrt_beat_donor	Non-Hrt Beating Donor	Text (String)		Demographics	Viewable to nPOD Staff Only
+oppc_ageR	Age (yrs)	Number (Double)		Demographics
+gestational_age	Gestational Age (weeks)	Number (Double)		Demographics
+oppc_heightR	Height (cm)	Number (Double)		Demographics
+oppc_weightR	Whole Body Weight (kg)	Number (Double)		Demographics
+oppc_bmiR	BMI (kg/m2)	Number (Double)	##0.0	Demographics
+oppc_abo	ABO group	Text (String)		Demographics
+abo_subtype	ABO subtype	Text (String)		Demographics	Viewable to nPOD Staff Only
+DonorType	Donor Type	Text (String)		Demographics
+DonorTypeComments	Donor Type Comments	Text (String)		Demographics
+nPODCaseID	N PODCase ID	Text (String)		Demographics
+oppc_AdmittCourse	Admission Course	Text (String)		Lifestyle and Medical History
+oppc_ClinicalHistory	Clinical History	Text (String)		Lifestyle and Medical History
+alcohol_heavy	Heavy Alcohol Use	Text (String)		Lifestyle and Medical History
+oppc_AlcoholUse	Alcohol Use Notes	Text (String)		Lifestyle and Medical History
+hist_cig	History of Cigarette Use	Text (String)		Lifestyle and Medical History
+oppc_Smoking	Smoking Notes	Text (String)		Lifestyle and Medical History
+hist_oth_drug	History of Other Drugs	Text (String)		Lifestyle and Medical History
+hist_cocaine	History of Cocaine Use	Text (String)		Lifestyle and Medical History
+tattoos	Tattoos	Text (String)		Lifestyle and Medical History
+cdc_risk_hiv	CDC Risk HIV	Text (String)		Lifestyle and Medical History
+oppc_Allergies	Allergy Notes	Text (String)		Lifestyle and Medical History
+hist_hypertenion	history of Hypertension	Text (String)		Lifestyle and Medical History
+oppc_othermeds	Other Medications	Text (String)		Lifestyle and Medical History
+oppc_Medshosp	Hospital Medications	Text (String)		Lifestyle and Medical History
+nPODCaseID	N PODCase ID	Text (String)		Lifestyle and Medical History
+date	Date	Date and Time		Lifestyle and Medical History	Viewable to nPOD Staff Only
+diabetes_Duration_yrs	Diabetes Duration (yrs)	Number (Double)		Diabetes Information
+oppc_HbA1cR	HbA1c	Number (Double)		Diabetes Information
+oppc_peakGluc	Peak Glucose Hosp Stay (mg/dL)	Text (String)	Numbers entered, a few N/A entries	Diabetes Information
+oppc_pancdisease	Pancreas Disease Notes	Text (String)		Diabetes Information
+Insulin_meds_taken	Diabetes Meds Taken	Text (String)		Diabetes Information
+Other_meds_taken	Other Meds Taken	Text (String)		Diabetes Information	Not displayed in table, data shown in Lifestyle and Med History
+diabetes_history	History of Diabetes	Text (String)		Diabetes Information
+Insulin_depd	Insulin Dependant	Text (String)		Diabetes Information
+oppc_C_peptideR	C-Peptide	Text (String)	Numbers entered, or "Less than .05" or "Less than .02"	Diabetes Information
+nPODCaseID	N PODCase ID	Text (String)		Diabetes Information
+date	Date	Date and Time		Diabetes Information	Viewable to nPOD Staff Only
+creatinine_mg_dL	Creatinine(mg/dL)	Number (Double)		Labs Taken Closest to Organ Recovery	Data only for cases 6001-6320
+blood_urea_nitrogen_mg_dL	blood_urea_nitrogen(mg/dL)	Number (Double)		Labs Taken Closest to Organ Recovery	Data only for cases 6001-6320
+total_bilirubin_mg_dL	total_bilirubin(mg/dL)	Number (Double)		Labs Taken Closest to Organ Recovery	Data only for cases 6001-6320
+sgot_u_L	SGOT(U/L)	Number (Double)		Labs Taken Closest to Organ Recovery	Data only for cases 6001-6320
+protein_urine_result	Protein Urine	Text (String)	Yes/No/Unknown	Labs Taken Closest to Organ Recovery	Data only for cases 6001-6320
+sgpt_u_L	sgpt(U/L)	Number (Double)		Labs Taken Closest to Organ Recovery	Data only for cases 6001-6320
+inr	Inr	Number (Double)		Labs Taken Closest to Organ Recovery	Data only for cases 6001-6320
+ph	pH	Number (Double)		Labs Taken Closest to Organ Recovery	Data only for cases 6001-6320
+Hematocrit	Hematocrit	Number (Double)		Labs Taken Closest to Organ Recovery	Data only for cases 6001-6320
+lipase_u_L	lipase(u/L)	Number (Double)		Labs Taken Closest to Organ Recovery	Data only for cases 6001-6320
+amylase_u_L	amylase(u/L)	Number (Double)		Labs Taken Closest to Organ Recovery	Data only for cases 6001-6320
+nPODCaseID	N PODCase ID	Text (String)		Labs Taken Closest to Organ Recovery
+date	Date	Date and Time		Labs Taken Closest to Organ Recovery	Viewable to nPOD Staff Only
+pt_steroids	Pt Steroids	Text (String)	Y/N	Meds Given w/in 24hrs Prior to Organ Recovery Start	Data only for cases 6001-6320
+pt_diuretics	Pt Diuretics	Text (String)	Y/N	Meds Given w/in 24hrs Prior to Organ Recovery Start	Data only for cases 6001-6320
+pt_t3	Pt T3	Text (String)	Y/N	Meds Given w/in 24hrs Prior to Organ Recovery Start	Data only for cases 6001-6320
+pt_t4	Pt T4	Text (String)	Y/N	Meds Given w/in 24hrs Prior to Organ Recovery Start	Data only for cases 6001-6320
+anticonv	Anticonv	Text (String)	Y/N	Meds Given w/in 24hrs Prior to Organ Recovery Start	Data only for cases 6001-6320
+antihype	Antihype	Text (String)	Y/N	Meds Given w/in 24hrs Prior to Organ Recovery Start	Data only for cases 6001-6320
+vasodil	Vasodil	Text (String)	Y/N	Meds Given w/in 24hrs Prior to Organ Recovery Start	Data only for cases 6001-6320
+ddavp	Ddavp	Text (String)	Y/N	Meds Given w/in 24hrs Prior to Organ Recovery Start	Data only for cases 6001-6320
+Heparin	Heparin	Text (String)	Y/N	Meds Given w/in 24hrs Prior to Organ Recovery Start	Data only for cases 6001-6320
+arginine	Arginine	Text (String)	Y/N	Meds Given w/in 24hrs Prior to Organ Recovery Start	Data only for cases 6001-6320
+insulin	Insulin	Text (String)	Y/N	Meds Given w/in 24hrs Prior to Organ Recovery Start	Data only for cases 6001-6320
+other_meds1	Other Meds1	Text (String)		Meds Given w/in 24hrs Prior to Organ Recovery Start
+other_meds2	Other Meds2	Text (String)		Meds Given w/in 24hrs Prior to Organ Recovery Start
+other_meds3	Other Meds3	Text (String)		Meds Given w/in 24hrs Prior to Organ Recovery Start
+nPODCaseID	N PODCase ID	Text (String)		Meds Given w/in 24hrs Prior to Organ Recovery Start
+date	Date	Date and Time		Meds Given w/in 24hrs Prior to Organ Recovery Start	Viewable to nPOD Staff Only
+hiv	Hiv	Text (String)	N/ND/P	Serologies	Data only for cases 6001-6320
+htlv	Htlv	Text (String)	N/ND/P	Serologies	Data only for cases 6001-6320
+vdrl	Vdrl	Text (String)	N/ND/P	Serologies	Data only for cases 6001-6320
+cmv	Cmv	Text (String)	N/ND/P	Serologies	Data only for cases 6001-6320
+hbsag	Hbsag	Text (String)	N/ND/P	Serologies	Data only for cases 6001-6320
+anti_hcv	Anti Hcv	Text (String)	N/ND/P	Serologies	Data only for cases 6001-6320
+other_serology_notes	Serology Notes	Text (String)		Serologies	*Data for all cases
+nPODCaseID	N PODCase ID	Text (String)		Serologies
+date	Date	Date and Time		Serologies	Viewable to nPOD Staff Only
+inotrop_agents	Inotrop Agents	Text (String)	Y/N	Transfusions and Infections	Data only for cases 6001-6320
+clin_infect	Clin Infect	Text (String)	Y/N	Transfusions and Infections	Data only for cases 6001-6320
+blood_inf	Blood Inf	Text (String)	True/False	Transfusions and Infections	Data only for cases 6001-6320
+blood_inf_conf	Blood Inf Conf	Text (String)	Y	Transfusions and Infections	Data only for cases 6001-6320
+pulm_inf	Pulm Inf	Text (String)	True/False	Transfusions and Infections	Data only for cases 6001-6320
+pulm_inf_conf	Pulm Inf Conf	Text (String)	Y	Transfusions and Infections	Data only for cases 6001-6320
+urine_inf	Urine Inf	Text (String)	True/False	Transfusions and Infections	Data only for cases 6001-6320
+urine_inf_conf	Urine Inf Conf	Text (String)	Y	Transfusions and Infections	Data only for cases 6001-6320
+other_inf	Other Inf	Text (String)	True/False	Transfusions and Infections	Data only for cases 6001-6320
+other_inf_ostxt	Other Inf Ostxt	Text (String)		Transfusions and Infections
+oppc_infections	Infection Notes	Text (String)		Transfusions and Infections	*Data for all cases
+nPODCaseID	N PODCase ID	Text (String)		Transfusions and Infections
+date	Date	Date and Time		Transfusions and Infections	Viewable to nPOD Staff Only
+A_allele1	A_1	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+A_allele2	A_2	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+B_allele1	B_1	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+B_allele2	B_2	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+C_allele1	C_1	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+C_allele2	C_2	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+DRB1_allele1	DRB1_1	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+DRB1_allele2	DRB1_2	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+DQA1_allele1	DQA1_1	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+DQA1_allele2	DQA1_2	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+DQB1_allele1	DQB1_1	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+DQB1_allele2	DQB1_2	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+DPA1_allele1	DPA1_1	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+DPA1_allele2	DPA1_2	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+DPB1_allele1	DPB1_1	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+DPB1_allele2	DPB1_2	Text (String)	Numbers, colon, backslash	Hi Res HLA Post Receipt of Organ
+t_a_1	Transplant(A_1)	Text (String)		Hi Res HLA Post Receipt of Organ
+t_a_2	Transplant(A_2)	Text (String)		Hi Res HLA Post Receipt of Organ
+t_b_1	Transplant(B_1)	Text (String)		Hi Res HLA Post Receipt of Organ
+t_b_2	Transplant(B_2)	Text (String)		Hi Res HLA Post Receipt of Organ
+t_dr_1	Transplant(DR_1)	Text (String)		Hi Res HLA Post Receipt of Organ
+t_dr_2	Transplant(DR_2)	Text (String)		Hi Res HLA Post Receipt of Organ
+t_dq_1	Transplant(DQ_1)	Text (String)		Hi Res HLA Post Receipt of Organ
+T_dq_2	Transplant(DQ_2)	Text (String)		Hi Res HLA Post Receipt of Organ
+nPODCaseID	N PODCase ID	Text (String)
+date	Date	Date and Time			Viewable to nPOD Staff Only
+hla_typing	Hla Typing	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+target_source_for_class1	Target Source For Class1	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+typing_method_class1	Typing Method Class1	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+a1_result	A1 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+a2_result	A2 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+b1_result	B1 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+b2_result	B2 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+c1_result	C1 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+c2_result	C2 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+bw4_result	Bw4 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+bw6_result	Bw6 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+target_source_for_class2	Target Source For Class2	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+typing_method_class2	Typing Method Class2	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+dr1_result	Dr1 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+dr2_result	Dr2 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+dr51_result	Dr51 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+dr52_result	Dr52 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+dr53_result	Dr53 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+dq1_result	Dq1 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+dq2_result	Dq2 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+dp1_result	Dp1 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+dp2_result	Dp2 Result	Text (String)		Low Resolution HLA at Organ Donation	None of these show when you open table data
+oppc_hla_transplant	HLA Transplant Summary	Text (String)		Low Resolution HLA at Organ Donation
+nPODCaseID	N PODCase ID	Text (String)		Low Resolution HLA at Organ Donation
+date	Date	Date and Time		Low Resolution HLA at Organ Donation	Viewable to nPOD Staff Only
+Sample_Type	Sample Type	Integer	Discrete list	RNA_quality_RIN_values
+Aliquot_Type	Aliquot Type	Integer	Discrete list	RNA_quality_RIN_values
+Block_Vial_Number	Block/Vial Number	Text (String)	Number	RNA_quality_RIN_values
+RIN	RIN Value	Number (Double)		RNA_quality_RIN_values
+Key	Key	Integer		RNA_quality_RIN_values	Does not display
+date_processed	date_processed	Date		RNA_quality_RIN_values
+nPODCaseID	N PODCase ID	Text (String)		RNA_quality_RIN_values
+date	Date	Date and Time		RNA_quality_RIN_values	Viewable to nPOD Staff Only
+GADA result		Text (String)	Negative/Not Tested/Positive	RIA_AutoAb_Results
+IA2A result		Text (String)	Negative/Not Tested/Positive	RIA_AutoAb_Results
+mIAA result		Text (String)	Negative/Not Tested/Positive	RIA_AutoAb_Results
+ZnT8A result		Text (String)	Negative/Not Tested/Positive	RIA_AutoAb_Results
+Total Positive Auto Ab count		Number (Double)		RIA_AutoAb_Results
+Sample		Integer	Discrete list	RIA_AutoAb_Results
+Comments to investigators		Text (String)		RIA_AutoAb_Results
+nPODCaseID	N PODCase ID	Text (String)		RIA_AutoAb_Results
+DonorType	Donor Type	Text (String)		Demographics
+date	Date	Date and Time		RIA_AutoAb_Results
+Histopathology	Histopath Notes	Text (String)		Histopathology
+nPODCaseID	N PODCase ID	Text (String)		Histopathology
+date	Date	Date and Time		Histopathology
+organ_received_datetime	Organ Received Datetime	Date and Time	MMM dd, yyyy HH:mm	Donor Timelines (Raw Data)	Viewable to nPOD Staff Only
+organ_frozen_datetime	Organ Frozen Datetime	Date and Time	MMM dd, yyyy HH:mm	Donor Timelines (Raw Data)	Viewable to nPOD Staff Only
+admit_datetime	Admit Datetime	Date and Time	MMM dd, yyyy HH:mm	Donor Timelines (Raw Data)	Viewable to nPOD Staff Only
+braindeath_datetime	Braindeath Datetime	Date and Time	MMM dd, yyyy HH:mm	Donor Timelines (Raw Data)	Viewable to nPOD Staff Only
+xclamp_datetime	Xclamp Datetime	Date and Time	MMM dd, yyyy HH:mm	Donor Timelines (Raw Data)	Viewable to nPOD Staff Only
+nPODCaseID	N PODCase ID	Text (String)		Donor Timelines (Raw Data)	Viewable to nPOD Staff Only
+date	Date	Date and Time		Donor Timelines (Raw Data)	Viewable to nPOD Staff Only
+Organ Transport Times (minutes)		Number		Organ Transportation Time
+Organ Transport Times (hours)		Number		Organ Transportation Time
+Duration of Donor Hospitalization (minutes)		Number		Duration of Donor Hospitalization
+Duration of Donor Hospitalization (days)		Number		Duration of Donor Hospitalization
+Lipase	CaseID, Donor Type, Lipase	Chart		Lipase
+Donor by Group Summary	Donor type frequency, age min+max	Number
+Donors by Year	Donor type and year	Number			Viewable to nPOD Staff Only
+OPO Recovery by year		Number			Viewable to nPOD Staff Only
+Donor by Age Bin	Donor type frequency, age bin	Number			Viewable to nPOD Staff Only
+Aab_Type_by_Year_and_Donor	Aab status, year, donor type	Number			Viewable to nPOD Staff Only

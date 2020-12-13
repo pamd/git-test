@@ -217,10 +217,13 @@ Total_Positive_Auto_Ab_Count | int          | YES  |     | NULL    |
 Sample                       | varchar(30)  | YES  |     | NULL    |
 Comments_To_Investigators    | varchar(800) | YES  |     | NULL    |
 
+
 #### 16. `Endocrine Cell Function`: No data to show
+
 
 #### 17. `HiRes HLA Post Receipt of Organ`:
   - now called **hires_receipt_of_organ** (see `#5`)
+
 
 #### 18. `Age_At_Onset Dataset` --> **age_at_onset**
   - 622 rows, 5 columns

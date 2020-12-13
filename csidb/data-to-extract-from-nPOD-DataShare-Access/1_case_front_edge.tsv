@@ -1,0 +1,60 @@
+Dataset Fields	Data Type	Notes	Table in Access
+CaseID	Alphanumeric		Cases
+DonorTypeID	Text drop-down list		Cases
+Date Rec	Date		Cases
+Pancreas intact?	Yes/No		Cases
+PancreasWT (g)	Number		Cases
+PanHead (g)	Number		Cases
+PanBody (g)	Number		Cases
+PanTail (g)	Number		Cases
+Clinical History	Text		Cases
+Age (y)	Number		Cases
+Gestational age (w)	Number		Cases
+DiabetesDuration (y)	Number		Cases
+Gender	Text drop-down list		Cases
+Ethnicity	Text drop-down list		Cases
+Height (cm)	Number		Cases
+Weight (kg)	Number		Cases
+BMI	Number		Cases
+HbA1c (%)	Number		Cases
+C-peptide (ng/mL)	Number		Cases
+Admit Gluose	Number		Cases
+Peak Glucose	Number		Cases
+InsulinMeds	Text	Would need to clean data	Cases
+COD	Text drop-down list		Cases
+ICUTime (days)	Number		Cases
+TransitTime (hrs)	Number		Cases
+GADA	Number	Text result in DataShare	Aab
+IA_2A	Number	Text result in DataShare	Aab
+mIAA	Number	Text result in DataShare	Aab
+ZnT8A	Number	Text result in DataShare	Aab
+A_1	Number	Format ##:##	HLA
+A_2	Number	Format ##:##	HLA
+B_1	Number	Format ##:##	HLA
+B_2	Number	Format ##:##	HLA
+C_1	Number	Format ##:##	HLA
+C_2	Number	Format ##:##	HLA
+DRB1_1	Number	Format ##:##	HLA
+DRB1_2	Number	Format ##:##	HLA
+DQA1_1	Number	Format ##:##	HLA
+DQA1_2	Number	Format ##:##	HLA
+DQB1_1	Number	Format ##:##	HLA
+DQB1_2	Number	Format ##:##	HLA
+DPA1_1	Number	Format ##:##	HLA
+DPA1_2	Number	Format ##:##	HLA
+DPB1_1	Number	Format ##:##	HLA
+DPB1_2	Number	Format ##:##	HLA
+RIN	Number		RNA
+			Table in DataShare
+Donor Type Comments	Text (String)		Demographics
+Histopathology	Text (String)		Histopathology
+GADA result	Text (String)	Negative/Not Tested/Positive	RIA_AutoAb_Results
+IA2A result	Text (String)	Negative/Not Tested/Positive	RIA_AutoAb_Results
+mIAA result	Text (String)	Negative/Not Tested/Positive	RIA_AutoAb_Results
+ZnT8A result	Text (String)	Negative/Not Tested/Positive	RIA_AutoAb_Results
+Total Positive Auto Ab count	Number (Double)		RIA_AutoAb_Results
+Comments to investigators	Text (String)		RIA_AutoAb_Results
+Organ Transport Times (minutes)	Number		Organ_Transport_Times
+Organ Transport Times (hours)	Number		Organ_Transport_Times
+Duration of Donor Hospitalization (minutes)	Number		Terminal_Hospital_Duration
+Duration of Donor Hospitalization (days)	Number		Terminal_Hospital_Duration

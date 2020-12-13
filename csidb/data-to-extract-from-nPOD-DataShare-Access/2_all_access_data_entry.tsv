@@ -1,0 +1,243 @@
+Dataset Fields	Data Type	Notes	Table in Access
+CaseID	Alphanumeric		Cases
+ALT CaseID	Alphanumeric		Cases
+UNOS ID	Alphanumeric		Cases
+DonorTypeID	Text drop-down list		Cases
+RetireStatus	Text drop-down list		Cases
+Slices?	Yes/No		Cases
+Islet isolation?	Yes/No		Cases
+Handel	Text drop-down list		Cases
+Date Rec	Date		Cases
+StartTime	Military time		Cases
+EndTime	Military time		Cases
+Pancreas intact?	Yes/No		Cases
+PancreasVL (mL)	Number		Cases
+PancreasWT (g)	Number		Cases
+PanUncinate (g)	Number		Cases
+PanHead (g)	Number		Cases
+PanBody (g)	Number		Cases
+PanTail (g)	Number		Cases
+AcceptedAs	Text drop-down list		Cases
+Conset restricted?	Yes/No		Cases
+Other Processing Info	Text		Cases
+Slices Processing Notes	Text		Cases
+Clinical History	Text		Cases
+Age (y)	Number		Cases
+Gestational age (w)	Number		Cases
+DiabetesDuration (y)	Number		Cases
+Gender	Text drop-down list		Cases
+Ethnicity	Text drop-down list		Cases
+Height (cm)	Number		Cases
+Weight (kg)	Number		Cases
+BMI	Number		Cases
+HbA1c (%)	Number		Cases
+C-peptide (ng/mL)	Number		Cases
+MedHistory	Yes/No		Cases
+AdmitDate	Date		Cases
+AdmitTime	Military time		Cases
+DeathDate	Date		Cases
+DeathTime	Military time		Cases
+CIT (cold ischemia time, hrs)	Number		Cases
+Crossclamp Date	Date		Cases
+Crossclamp Time	Military time		Cases
+Admit Glucose Date	Date		Cases
+Admit Glucose Time	Military time		Cases
+Admit Gluose	Number		Cases
+Peak Glucose	Number		Cases
+InsulinMeds	Text		Cases
+OtherMeds	Text		Cases
+MedsHospital	Text		Cases
+Infections	Text		Cases
+Allergies	Text		Cases
+Alcohol Use	Text		Cases
+Smoking Use	Text		Cases
+Gallbladder	Text		Cases
+PancDisease	Text		Cases
+HLA-Transplant (written)	Alphanumeric		Cases
+Serologies	Text	Limited entry options but contains commas	Cases
+Hemodiluted	Text	Yes/No/Not done	Cases
+ABO	Text drop-down list		Cases
+COD	Text drop-down list		Cases
+Mechanism of death	Text drop-down list		Cases
+Circumstances of death	Text drop-down list		Cases
+ICUTime (days)	Number		Cases
+TransitTime (hrs)	Number		Cases
+Source	Text drop-down list		Cases
+OPO_ID	Text drop-down list		Cases
+Recovery	Text drop-down list		Cases
+Notes	Text		Cases
+Case entry done?	Yes/No		Cases
+Entry initials-date	Text		Cases
+Case QC done?	Yes/No		Cases
+QC initials-date	Text		Cases
+VialID	Autonumber	Automated line-entry number	Samples_Aliquots
+CaseID	Alphanumeric		Samples_Aliquots
+SampleID	Text drop-down list		Samples_Aliquots
+AliquotNumber	Alphanumeric		Samples_Aliquots
+AliquotID	Text drop-down list		Samples_Aliquots
+Status	Text drop-down list		Samples_Aliquots
+Distribution ID	Text drop-down list		Samples_Aliquots
+OPPC Comments	Text		Samples_Aliquots
+StorID	Number		Samples_Aliquots
+Rack	Alphanumeric		Samples_Aliquots
+BoxID	Alphanumeric		Samples_Aliquots
+Row	Alphanumeric		Samples_Aliquots
+Column	Alphanumeric		Samples_Aliquots
+General comments	Text		Samples_Aliquots
+ID	Autonumber	Automated line-entry number	Derivatives
+VialID	Text drop-down list		Derivatives
+Status	Text drop-down list		Derivatives
+CaseID	Text drop-down list		Derivatives
+Aliq#	Text		Derivatives
+SampleID	Text drop-down list		Derivatives
+AliqID	Text drop-down list		Derivatives
+DerivType	Text drop-down list		Derivatives
+Deriv#	Number		Derivatives
+Comments	Text		Derivatives
+Distribution ID	Text drop-down list		Derivatives
+CRN	Text		Derivatives
+CaseID	Text drop-down list		Aab
+GADA	Number		Aab
+IA_2A	Number		Aab
+mIAA	Number		Aab
+ZnT8A	Number		Aab
+Sample	Text drop-down list		Aab
+#Aab+	Number		Aab
+Comments	Text		Aab
+CaseID	Text drop-down list		HLA
+T_A_1	Number		HLA
+T_A_2	Number		HLA
+T_B_1	Number		HLA
+T_B_2	Number		HLA
+T_DR_1	Number		HLA
+T_DR_2	Number		HLA
+T_DQB_1	Number		HLA
+T_DQB_2	Number		HLA
+A_1	Number		HLA
+A_2	Number		HLA
+B_1	Number		HLA
+B_2	Number		HLA
+C_1	Number		HLA
+C_2	Number		HLA
+DRB1_1	Number		HLA
+DRB1_2	Number		HLA
+DQA1_1	Number		HLA
+DQA1_2	Number		HLA
+DQB1_1	Number		HLA
+DQB1_2	Number		HLA
+DPA1_1	Number		HLA
+DPA1_2	Number		HLA
+DPB1_1	Number		HLA
+DPB1_2	Number		HLA
+Comments	Text		HLA
+CaseID	Text drop-down list		RNA
+RNA AliqID	Number		RNA
+Date_Proc	Date		RNA
+Staff	Text drop-down list		RNA
+Derivative Source	Text drop-down list		RNA
+SampleID	Text drop-down list		RNA
+Aliq#	Number		RNA
+Aliq ID	Text drop-down list		RNA
+Elution Vol	Number		RNA
+Conc (ng/uL)	Number		RNA
+RIN	Number		RNA
+260/280 ratio	Number		RNA
+Comments	Text		RNA
+CaseID	Alphanumeric		Cases_nPOD_E
+DonorTypeID	Text drop-down list		Cases_nPOD_E
+AAB	Text		Cases_nPOD_E
+PancIntact	Yes/No		Cases_nPOD_E
+PanQuality	Text		Cases_nPOD_E
+PancWeight	Number		Cases_nPOD_E
+PanHead (g)	Number		Cases_nPOD_E
+PanBody (g)	Number		Cases_nPOD_E
+PanTail (g)	Number		Cases_nPOD_E
+OtherInfo	Text		Cases_nPOD_E
+Clinical History	Text		Cases_nPOD_E
+Age (y)	Number		Cases_nPOD_E
+DiabetesDuration (y)	Number		Cases_nPOD_E
+Gender	Text		Cases_nPOD_E
+Height (cm)	Number		Cases_nPOD_E
+Weight (kg)	Number		Cases_nPOD_E
+BMI	Number		Cases_nPOD_E
+HbA1c (%)	Number		Cases_nPOD_E
+C-peptide (ng/mL)	Number		Cases_nPOD_E
+MedHistory	Yes/No		Cases_nPOD_E
+CIT (cold ischemia time, hrs)	Number		Cases_nPOD_E
+HLA-Transplant (written)	Alphanumeric		Cases_nPOD_E
+Serologies	Text		Cases_nPOD_E
+ABO	Text drop-down list		Cases_nPOD_E
+COD	Text drop-down list		Cases_nPOD_E
+Source	Text drop-down list		Cases_nPOD_E
+OPO_ID	Text drop-down list		Cases_nPOD_E
+Notes	Text		Cases_nPOD_E
+CaseID	Text		Samples_nPOD_E
+SampleID	Text drop-down list		Samples_nPOD_E
+Aliquot#	Alphanumeric		Samples_nPOD_E
+AliqID	Text drop-down list		Samples_nPOD_E
+Status	Text drop-down list		Samples_nPOD_E
+Comments	Text		Samples_nPOD_E
+LineID	Autonumber	Automated line-entry number	Submissions
+CRN	Text		Submissions
+Date Requested	Date		Submissions
+Project ID	Text drop-down list		Submissions
+Lab Contact	Text drop-down list		Submissions
+Submission Note	Text		Submissions
+ShipDate	Date		Submissions
+Project ID	Text drop-down list		Distributions
+ShipDate	Date		Distributions
+Lab Contact	Text drop-down list		Distributions
+Dist ID	Autonumber	Automated line-entry number	Distributions
+CRN	Text		Distributions
+FedExTN	Text		Distributions
+Shipment Comments	Text		Distributions
+Comments	Text		Distributions
+OfficePhone	Text		PI
+LastName	Text		PI
+FirstName	Text		PI
+Email	Text		PI
+CellPhone	Text		PI
+Fax	Text		PI
+FedEx account	Text		PI
+Address1	Text		PI
+Address2	Text		PI
+Address3	Text		PI
+City	Text		PI
+State	Text		PI
+Zip	Text		PI
+Country	Text		PI
+Comments	Text		PI
+Status	Text drop-down list		PI
+Institution	Text drop-down list		PI
+PI ID	Text drop-down list		Projects
+ProjectTItle	Text		Projects
+CO PI ID	Text drop-down list		Projects
+Status	Text drop-down list		Projects
+TPC Date	Date		Projects
+IRBApproval	Text drop-down list		Projects
+IRB ID	Text		Projects
+IRB Expiration	Date		Projects
+CatID	Text drop-down list		Projects
+Donor ID	Text drop-down list	Checkbox list	Projects
+SampleID	Text drop-down list	Checkbox list	Projects
+AliquotID	Text drop-down list	Checkbox list	Projects
+DerivID	Text drop-down list	Checkbox list	Projects
+Comments	Text		Projects
+Institution	Text drop-down list		Projects
+Project ID	Number		Projects
+LabLastName	Text		PI Contacts
+LabFirstName	Text		PI Contacts
+PI ID	Text drop-down list		PI Contacts
+Email	Text		PI Contacts
+OfficePhone	Text		PI Contacts
+CellPhone	Text		PI Contacts
+Fax	Text		PI Contacts
+Address1	Text		PI Contacts
+Address2	Text		PI Contacts
+Address3	Text		PI Contacts
+City	Text		PI Contacts
+State	Text		PI Contacts
+Zip	Text		PI Contacts
+Country	Text		PI Contacts
+Status	Text drop-down list		PI Contacts
+Institution	Text drop-down list		PI Contacts

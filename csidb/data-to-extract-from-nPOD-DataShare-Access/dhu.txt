@@ -1,0 +1,36 @@
+
+1_case_front_edge.tsv
+------------------------------
+  * 60 rows, 4 columns
+    (1) Dataset Fields
+    (2) Data Type
+    (3) Notes
+    (4) Table in Access
+  * 10 unique values in "Table in Access" (header line excluded)
+
+
+2_all_access_data_entry.tsv
+------------------------------
+  * 243 rows, 4 columns
+    (1) Dataset Fields
+    (2) Data Type
+    (3) Notes
+    (4) Table in Access
+  * 172 unique values in "Dataset Fields" (header line excluded)
+  * 13 unique values in "Table in Access" (header line excluded)
+
+
+3_all_datashare_data_entry.tsv
+------------------------------
+  * 226 rows, 6 columns:
+      (1) Dataset Fields
+      (2) Label
+      (3) Data Type
+      (4) Format
+      (5) Table in DataShare
+      (6) Note
+  * 225 "Dataset Fields", 188 unique (header line excluded)
+  * 23 unique values in "Table in Datashare" (header line excluded)
+      * Note that this column is not completely sorted.
+  * The last 5 "Dataset Fields" do NOT have "Table in Datashare".
+  * ??? "Dataset Fields" are not found in Labkey datashare (thus not imported to csidb).
