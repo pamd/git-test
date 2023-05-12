@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2.1.0
       - run: sudo apt install tidy
-      - run: tidy --config tidy.conf index.html
+      - run: tidy -config tidy.conf index.html
       - name: Print generated page
         run: cat index.html
