@@ -12,8 +12,8 @@ name: Format Code
 # Start the job on all push #
 #############################
 on:
-  push:
-    branches: [master]
+  #push:
+  #  branches: [master]
   pull_request:
     branches-ignore: [master]
     # Remove the line above to run when pull-requesting to master
@@ -24,7 +24,7 @@ on:
 jobs:
   build:
     # Name the Job
-    name: Formate Code
+    name: Format code
     # Set the agent to run on
     runs-on: ubuntu-latest
 
