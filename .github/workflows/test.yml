@@ -11,4 +11,4 @@ jobs:
       - run: sudo apt install tidy
       - run: tidy --indent auto --indent-spaces 2 --tidy-mark no --force-output yes -o new_index.html index.html
       - name: Print generated page
-        run: cat new_index_new.html
+        run: cat new_index.html
