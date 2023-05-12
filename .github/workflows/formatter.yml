@@ -4,7 +4,7 @@
 ## Auto Formatter ##
 ####################
 ####################
-name: Formate Code
+name: Beautify Code
 
 #
 # Documentation:
@@ -48,6 +48,6 @@ jobs:
       # Run Auto-formatter against code base #
       ################################
       - name: Auto-Formatter
-        uses: mezgoodle/auto-formatter@v1.0.10
+        uses: mezgoodle/auto-formatter@v1.0.2
         env:
             GITHUB_TOKEN: ${{ secrets.TOKEN }}
